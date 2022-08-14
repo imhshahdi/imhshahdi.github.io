@@ -1,0 +1,118 @@
+/* #d34c65 #db6e82 */
+
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  border: 7.5px solid #f2ad00af;
+  margin-top: 70px;
+  /* transform: rotate(-10deg); */
+}
+
+p.title {
+  padding: 4px 7px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f2ad00af;
+}
+
+div.tags {
+  text-align: center;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+div.tags > span {
+  display: inline-block;
+  padding: 3px 7px;
+  text-align: center;
+  margin: 3px 2px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #f2ad00af;
+}
+
+a {
+  color: #fff;
+  background-color: #f2ad00af;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 38px;
+  padding-top: 12px;
+  margin: 0 2px;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+}
+
+.github-icon {
+  margin: 10px;
+}
+
+.twitter-icon {
+  width: 25px;
+  margin-top: 12.5px;
+  margin-left: 12.5px;
+}
+
+.LinkedIn-icon {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.instagram-icon {
+  margin-top: 12.5px;
+  margin-left: 10px;
+}
+
+.codepen-icon {
+  margin: 10px;
+}
+
+.telegram-icon {
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 700px) {
+  .tags {
+    width: 30% !important;
+  }
+}
