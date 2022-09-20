@@ -1,7 +1,8 @@
 /* #d34c65 #db6e82 */
 
 body {
-  background-color: #1a1a1a;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +15,7 @@ body {
 img {
   border-radius: 50%;
   width: 200px;
-  border: 7.5px solid #f2ad00af;
+  border: 7.5px solid #71dbffaf;
   margin-top: 70px;
   /* transform: rotate(-10deg); */
 }
@@ -29,7 +30,7 @@ p.title {
   font-family: monospace;
   font-size: 18px;
   font-weight: bold;
-  background-color: #f2ad00af;
+  background-color: #71dbffaf;
 }
 
 div.tags {
@@ -48,12 +49,12 @@ div.tags > span {
   font-family: monospace;
   font-size: 15px;
   font-weight: bold;
-  background-color: #f2ad00af;
+  background-color: #71dbffaf;
 }
 
 a {
   color: #fff;
-  background-color: #f2ad00af;
+  background-color: #71dbffaf;
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
